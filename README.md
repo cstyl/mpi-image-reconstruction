@@ -76,7 +76,7 @@ To compare the generated outputs use:
 ```sh
 $ diff a b
 ```
-where a is the file of the serial image and b the file of the parallel image. Note that the two should be compiled with the same `DEFINE` statements and executed using the same parameters.
+where `a` is the file of the serial image and `b` the file of the parallel image. Note that the two should be compiled with the same `DEFINE` statements and executed using the same parameters.
 
 ### Running correctness test
 To execute the correctness tests do:
