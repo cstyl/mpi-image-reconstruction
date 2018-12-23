@@ -2,7 +2,7 @@
 
 You can create your own edge files for reconstruction with the program `pgm2edge`, provided you have an initial image in PGM format. You can create PGM images from, say, JPG images using `convert`. Note that this produces edge files using the new boundary conditions appropriate for the MPP coursework. Here, we demonstrate how a user can generate its own edge files from a `.jpg` image. An example image `archer.jpg` is used.
 
-## Convert the `.jpg` image in grayscale `.pgm` image
+#### Convert the `.jpg` image in grayscale `.pgm` image
 
 ```sh
 convert archer.jpg -colorspace gray -compress none -depth 8 image400x266.pgm 
@@ -10,14 +10,14 @@ convert archer.jpg -colorspace gray -compress none -depth 8 image400x266.pgm
 
 Note that in `image400x266.pgm` the `400x266` is the width and height of the image.
 
-## Compile and generate an executable of the converter
+#### Compile and generate an executable of the converter
 
 ```sh
 gfortran -o pgm2edge pgm2edge.f90
 ```
 Usage: pgm2edge <input image file> <output edge file>
 
-## Run the converter
+#### Run the converter
 
 ```sh
 ./pgm2edge image400x266.pgm edgenew400x266.pgm
@@ -31,7 +31,12 @@ Usage: pgm2edge <input image file> <output edge file>
 
 The generated edge file is called `edgenew400x266.pgm`
 
-## Move the new edge file in the appropriate directory
+#### Move the new edge file in the appropriate directory
 ```sh
 cp edgenew400x266.pgm ../data/
+```
+
+#### Clean the directory
+```sh
+rm edgenew400x266.pgm image400x266.pgm ipgmio.mod pgm2edge
 ```
