@@ -1,7 +1,5 @@
 CC=	mpicc
 
-# -DEARLY_STOP defines that the early stoping criterion 
-# will be used instead of fixed number of iterations
 # -DOVERLAP if set indicates overlapping communication
 # -DTIME is defined when the main loop needs to be timed.
 # Comment out accordingly which ones don't want to be used
@@ -20,6 +18,7 @@ OBJ = obj
 BIN = bin
 OUT = out
 DATA = data
+
 MPLIB = $(SRC)/mplib
 IMGLIB = $(SRC)/imglib
 UTIL = $(SRC)/util

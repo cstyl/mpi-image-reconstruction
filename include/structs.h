@@ -1,10 +1,6 @@
 #ifndef __STRUCTS_H__
 #define __STRUCTS_H__
 
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <math.h>
-// #include <omp.h> 
 #include <mpi.h>
 #define ndims 2 
 
