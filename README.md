@@ -26,12 +26,13 @@ Before compile and execute the code it is useful to know that different versions
 Comment out accordingly which ones don't want to be used create a clean directory and recompile the code as it will be explained below.
 
 Both the serial and parallel code come with the option to specify input arguments to the program through the command line. The available options are:
-`-ver`: The version of the code to be executed. If set to `0` the serial version will be executed. If set to `1` the parallel version will be executed. Default is `0`.
-`-ef`: The name of the edge file. It is assumed that the file is located in `data/`. Default is `edgenew192x128.pgm`.
-`-if`: The name of the reconstructed image file produced. It is stored in `out/` by default.
-`-i`: Number of iterations the code will be executed for. Default is `1000`. Default is `serial_image192x128.pgm`.
-`-mf`: Frequency at which the maximum absolute change is evaluated at. Default is `200`.
-`-af`: Frequency at which the average pixel value in the image is evaluated at. Default is `200`.
+
+- `-ver`: The version of the code to be executed. If set to `0` the serial version will be executed. If set to `1` the parallel version will be executed. Default is `0`.
+- `-ef`: The name of the edge file. It is assumed that the file is located in `data/`. Default is `edgenew192x128.pgm`.
+- `-if`: The name of the reconstructed image file produced. It is stored in `out/` by default.
+- `-i`: Number of iterations the code will be executed for. Default is `1000`. Default is `serial_image192x128.pgm`.
+- `-mf`: Frequency at which the maximum absolute change is evaluated at. Default is `200`.
+- `-af`: Frequency at which the average pixel value in the image is evaluated at. Default is `200`.
 
 Note that these arguments are not mandatory. No check is performed about their correctness at the moment.
 A sensible value for -mf or -af is 200.
