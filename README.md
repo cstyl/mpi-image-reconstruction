@@ -18,7 +18,7 @@ Two-dimensional lattice-based calculation that employs a two-dimensional domain 
 - `data/`: Images that can be used when running the program.
 - `converter/`: Contains a program that can be used by the user to generate its own edge images.
 
-## Usage
+## Options
 Before compile and execute the code it is useful to know that different versions of the code can be compiled by specifying the `DEFINE` variable at the top of the `MAKEFILE`.
 
 Available options are:
@@ -40,9 +40,9 @@ Both the serial and parallel code come with the option to specify input argument
 Note that these arguments are not mandatory. No check is performed about their correctness at the moment.
 A sensible value for -mf or -af is 200.
 
-### Usage
+## Usage
 
-#### Building
+### Building
 Select the desired `DEFINE` options from the `MAKEFILE` to compile the code with.
 
 To compile the serial and parallel code use:
@@ -50,13 +50,13 @@ To compile the serial and parallel code use:
 $ make all
 ```
 
-#### Cleaning
+### Cleaning
 To clean the project run:
 ```sh
 $ make clean
 ```
 
-#### Running
+### Running
 To execute the serial code:
 ```sh
 $ mpirun -n 1 ./bin/image -ver 0 -ef <string> -if <string> -i <int> -mf <int> -af <int>
@@ -70,7 +70,7 @@ Note that the arguments in "< >" only indicate the suported type of input. Pleas
 
 If `-ver` is set to `0` the serial version of the code will be executed. If set to `1` the parallel version will be executed. Default option is set to be the serial.
 
-#### Comparing outputs
+### Comparing outputs
 To compare the generated outputs use:
 
 ```sh
@@ -78,7 +78,7 @@ $ diff a b
 ```
 where a is the file of the serial image and b the file of the parallel image. Note that the two should be compiled with the same `DEFINE` statements and executed using the same parameters.
 
-#### Running correctness test
+### Running correctness test
 To execute the correctness tests do:
 ```sh
 $ make ctest
