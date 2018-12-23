@@ -1,4 +1,4 @@
-# mpi-image-reconstruction
+# Image Reconstructions using message-passing programming
 Two-dimensional lattice-based calculation that employs a two-dimensional domain decomposition and uses non-blocking communications for image reconstruction
 
 ## What is included
@@ -84,10 +84,4 @@ To execute the correctness tests do:
 $ make ctest
 ```
 
-and
-
-```sh
-$ make ctests_early
-```
-
-Note that the first requires compilation with the -DEARLY_STOP commented out while the second requires it to be defined.
+Output results and logs can be found in `res/correctness/`. Test checks correctness for both early stopping criterion and fixed number of iterations. The data used are the default images in `data/`.

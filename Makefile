@@ -18,6 +18,7 @@ OBJ = obj
 BIN = bin
 OUT = out
 DATA = data
+RES = res
 
 MPLIB = $(SRC)/mplib
 IMGLIB = $(SRC)/imglib
@@ -46,6 +47,13 @@ all: dir $(BIN)/image
 ## dir: create directories
 dir:
 	mkdir -p $(BIN) $(OBJ) $(OUT)
+	mkdir -p $(RES)/correctness $(RES)/performance
+
+## ctest: perform correctness tests.
+.PHONY: ctest
+ctest:
+	chmod u+x scripts/correctness/correctness_test.sh
+	./scripts/correctness/correctness_test.sh
 
 # compile all c files and create the output files
 $(OBJ)/%.o: %.c
