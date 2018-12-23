@@ -20,8 +20,11 @@ Two-dimensional lattice-based calculation that employs a two-dimensional domain 
 
 ## Usage
 Before compile and execute the code it is useful to know that different versions of the code can be compiled by specifying the `DEFINE` variable at the top of the `MAKEFILE`.
-`-DOVERLAP`: if set indicates overlapping communication
-`-DTIME`: is defined when the main loop needs to be timed.
+
+Available options are:
+
+- `-DOVERLAP`: if set indicates overlapping communication
+- `-DTIME`: is defined when the main loop needs to be timed.
 
 Comment out accordingly which ones don't want to be used create a clean directory and recompile the code as it will be explained below.
 
