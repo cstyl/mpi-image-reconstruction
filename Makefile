@@ -52,8 +52,14 @@ dir:
 ## ctest: perform correctness tests.
 .PHONY: ctest
 ctest:
-	chmod u+x scripts/correctness/correctness_test.sh
+	@chmod u+x scripts/correctness/correctness_test.sh
 	./scripts/correctness/correctness_test.sh
+
+## conv: runs the converter to generate the desired edge image
+.PHONY: conv
+conv:
+	@chmod u+x converter/converter.sh
+	./converter/converter.sh -n $(NAME) -w $(WIDTH) -h $(HEIGHT)
 
 # compile all c files and create the output files
 $(OBJ)/%.o: %.c

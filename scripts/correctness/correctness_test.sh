@@ -1,4 +1,11 @@
 #!/bin/bash
+# Executes the serial code for a predifined edges inputs
+# Then executes the parallel code for the same image each time for a set of number of processes
+# Compares each parallel image with the corresponding serial image
+# Checks for correctness i.e if the two images are the same
+# The test is performed for a fixed number of iterations and then for early stopping
+# Log file and out file are generated as well as on-screen messages informing the user about
+# the results.
 EDGES=("edgenew192x128.pgm" "edgenew256x192.pgm" "edgenew512x384.pgm" "edgenew768x768.pgm")
 
 IMAGES_SER=("serial_image192x128.pgm" "serial_image256x192.pgm" 
