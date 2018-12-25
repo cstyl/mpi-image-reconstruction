@@ -87,7 +87,7 @@ $ diff a b
 ```
 where `a` is the file of the serial image and `b` the file of the parallel image. Note that the two should be compiled with the same `DEFINE` statements and executed using the same parameters.
 
-### Running the converter to use your own images
+## Running the converter to use your own images
 To generate your own edge images, use:
 
 ```sh
@@ -96,6 +96,7 @@ $ make conv NAME=archer.jpg WIDTH=400 HEIGHT=266
 
 where `NAME` is the name of the image to be converted, located in `converter/`, `WIDTH` is the width of the image and `HEIGHT` the height of the image. The generated image is located in `data/`. Alternatively, one can follow the instructions in `converter/` under the `REAMDE.md`.
 
+## Running various tests
 ### Running correctness test
 To execute the correctness tests do:
 ```sh
