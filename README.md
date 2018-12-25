@@ -107,7 +107,7 @@ In order to run the test, the user needs to specify which version of the code de
 Input arguments to the test can be specified by modifying the `test_resources/correctness_resources.sh`. Output results and logs can be found in `res/correctness/`. Test checks correctness for both early stopping criterion and fixed number of iterations. The source directory of the edge images is `data/`.
 
 ### Running performance test using a single node 
-This test is about measuring the performance of the parallel code when executed on a single node i.e ignoring network communication overheads. A set of 
+This test is about measuring the performance of the parallel code when executed on a single node i.e ignoring network communication overheads. A set of number of processes from 1 to 36 are tested.
 
 To execute the test do:
 ```sh
