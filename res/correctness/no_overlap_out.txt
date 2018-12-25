@@ -1,0 +1,4949 @@
+Generated outputs from correctness test..
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_serial_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image
+
+Reading <data/edgenew192x128.pgm>
+
+
+Writing <out/no_overlap_serial_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_serial_image192x128.pgm
+Average Time for 50 iterations = 0.003736
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_serial_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image
+
+Reading <data/edgenew256x192.pgm>
+
+
+Writing <out/no_overlap_serial_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_serial_image256x192.pgm
+Average Time for 50 iterations = 0.005243
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_serial_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image
+
+Reading <data/edgenew512x384.pgm>
+
+
+Writing <out/no_overlap_serial_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_serial_image512x384.pgm
+Average Time for 50 iterations = 0.015046
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_serial_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image
+
+Reading <data/edgenew768x768.pgm>
+
+
+Writing <out/no_overlap_serial_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_serial_image768x768.pgm
+Average Time for 50 iterations = 0.050484
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 1 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.004896
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 2 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.002743
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 4 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001986
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 5 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001616
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 8 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001378
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 12 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001274
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 15 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001097
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 16 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001162
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 19 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.000968
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 23 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.000870
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 25 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001123
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 27 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.000972
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 29 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001426
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 31 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.000845
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 32 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001027
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 36 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001052
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 38 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001074
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 40 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001228
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 43 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001479
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 45 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001257
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 47 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001059
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 53 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001722
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 55 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001187
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 57 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001101
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 59 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001240
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 60 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001150
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 61 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001003
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 62 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.001012
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 192 x 128 image on 67 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 50 iterations = 0.002122
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 1 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.005099
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 2 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.002772
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 4 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.002822
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 5 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001699
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 8 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001747
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 12 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001249
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 15 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001185
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 16 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001023
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 19 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001000
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 23 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.000940
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 25 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001322
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 27 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001122
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 29 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001528
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 31 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.000985
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 32 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001146
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 36 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001440
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 38 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001255
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 40 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001112
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 43 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.002034
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 45 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001340
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 47 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001691
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 53 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.002496
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 55 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001172
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 57 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001232
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 59 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001422
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 60 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001183
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 61 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.000920
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 62 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.001097
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 256 x 192 image on 67 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 50 iterations = 0.002897
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 1 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.013990
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 2 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.007957
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 4 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.008330
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 5 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.004353
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 8 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.003698
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 12 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.003327
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 15 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002509
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 16 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002972
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 19 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002828
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 23 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001627
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 25 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002348
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 27 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001925
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 29 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001655
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 31 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001692
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 32 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001804
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 36 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001773
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 38 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001889
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 40 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002008
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 43 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.003422
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 45 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002100
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 47 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.003528
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 53 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.003258
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 55 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001844
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 57 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002202
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 59 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002699
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 60 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001971
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 61 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001966
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 62 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.001556
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 512 x 384 image on 67 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 50 iterations = 0.002808
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 1 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.043935
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 2 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.019862
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 4 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.015733
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 5 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.008286
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 8 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.007891
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 12 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.005164
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 15 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.005829
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 16 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.005801
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 19 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.004346
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 23 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003709
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 25 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.004246
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 27 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003593
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 29 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003495
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 31 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003481
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 32 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003371
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 36 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003523
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 38 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003247
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 40 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003252
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 43 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.005383
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 45 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.002997
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 47 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003584
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 53 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.004224
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 55 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.003236
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 57 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.002890
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 59 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.002457
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 60 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.002716
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 61 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.004743
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 62 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.002982
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 50
+	DelftaFreq: 0
+	AvgFreq: 0
+Processing 768 x 768 image on 67 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+
+Finished 50 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 50 iterations = 0.010777
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_serial_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image
+
+Reading <data/edgenew192x128.pgm>
+
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Writing <out/no_overlap_serial_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_serial_image192x128.pgm
+Average Time for 1190 iterations = 0.076269
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_serial_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image
+
+Reading <data/edgenew256x192.pgm>
+
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Writing <out/no_overlap_serial_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_serial_image256x192.pgm
+Average Time for 867 iterations = 0.106448
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_serial_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image
+
+Reading <data/edgenew512x384.pgm>
+
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Writing <out/no_overlap_serial_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_serial_image512x384.pgm
+Average Time for 1435 iterations = 0.680171
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_serial_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image
+
+Reading <data/edgenew768x768.pgm>
+
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Writing <out/no_overlap_serial_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_serial_image768x768.pgm
+Average Time for 1226 iterations = 1.851311
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 1 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.092577
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 2 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.076577
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 4 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.054617
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 5 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.042553
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 8 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.036345
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 12 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.031607
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 15 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.029019
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 16 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.029400
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 19 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.029427
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 23 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.026373
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 25 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.027952
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 27 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.026059
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 29 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.030936
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 31 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.024590
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 32 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.029485
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 36 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.038884
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 38 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.026019
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 40 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.027607
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 43 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.042345
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 45 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.034118
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 47 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.030236
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 53 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.046115
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 55 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.067383
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 57 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.035059
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 59 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.037024
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 60 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.034217
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 61 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.026726
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 62 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.028258
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew192x128.pgm>
+	Output File: <out/no_overlap_parallel_image192x128.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 192 x 128 image on 67 processes
+Reading <data/edgenew192x128.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+
+Finished 1190 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image192x128.pgm>
+Writing 192 x 128 picture into file: out/no_overlap_parallel_image192x128.pgm
+Average Time for 1190 iterations = 0.079012
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 1 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.122325
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 2 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.082217
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 4 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.061243
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 5 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.044866
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 8 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.039611
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 12 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.034012
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 15 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.029463
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 16 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.028898
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 19 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.022887
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 23 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.022326
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 25 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.026941
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 27 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.023949
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 29 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.028670
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 31 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.020917
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 32 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.024624
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 36 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.027741
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 38 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.024946
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 40 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.025897
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 43 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.050934
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 45 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.026422
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 47 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.036548
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 53 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.055355
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 55 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.025612
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 57 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.024819
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 59 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.037312
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 60 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.028741
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 61 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.025645
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 62 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.022602
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew256x192.pgm>
+	Output File: <out/no_overlap_parallel_image256x192.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 256 x 192 image on 67 processes
+Reading <data/edgenew256x192.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+
+Finished 867 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image256x192.pgm>
+Writing 256 x 192 picture into file: out/no_overlap_parallel_image256x192.pgm
+Average Time for 867 iterations = 0.075710
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 1 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.728594
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 2 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.413796
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 4 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.260247
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 5 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.196449
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 8 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.146096
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 12 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.117783
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 15 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.095551
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 16 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.088878
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 19 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.103635
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 23 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.068147
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 25 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.080984
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 27 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.065704
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 29 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.080188
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 31 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.081171
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 32 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.065894
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 36 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.071714
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 38 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.075219
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 40 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.071404
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 43 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.128430
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 45 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.075197
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 47 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.154093
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 53 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.112189
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 55 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.069510
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 57 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.071924
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 59 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.145393
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 60 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.069400
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 61 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.085412
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 62 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.060108
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew512x384.pgm>
+	Output File: <out/no_overlap_parallel_image512x384.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 512 x 384 image on 67 processes
+Reading <data/edgenew512x384.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+Iteration 1400
+
+Finished 1435 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image512x384.pgm>
+Writing 512 x 384 picture into file: out/no_overlap_parallel_image512x384.pgm
+Average Time for 1435 iterations = 0.129576
+Running on 1 processes.
+Selected topology: [ 1 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 1 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 1.913034
+Running on 2 processes.
+Selected topology: [ 2 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 2 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 1.063857
+Running on 4 processes.
+Selected topology: [ 2 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 4 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.589191
+Running on 5 processes.
+Selected topology: [ 5 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 5 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.458782
+Running on 8 processes.
+Selected topology: [ 4 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 8 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.304939
+Running on 12 processes.
+Selected topology: [ 4 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 12 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.226233
+Running on 15 processes.
+Selected topology: [ 5 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 15 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.190864
+Running on 16 processes.
+Selected topology: [ 4 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 16 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.193000
+Running on 19 processes.
+Selected topology: [ 19 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 19 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.155002
+Running on 23 processes.
+Selected topology: [ 23 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 23 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.139528
+Running on 25 processes.
+Selected topology: [ 5 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 25 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.126001
+Running on 27 processes.
+Selected topology: [ 9 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 27 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.114928
+Running on 29 processes.
+Selected topology: [ 29 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 29 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.130449
+Running on 31 processes.
+Selected topology: [ 31 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 31 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.164485
+Running on 32 processes.
+Selected topology: [ 8 , 4 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 32 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.125659
+Running on 36 processes.
+Selected topology: [ 6 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 36 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.128369
+Running on 38 processes.
+Selected topology: [ 19 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 38 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.120061
+Running on 40 processes.
+Selected topology: [ 8 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 40 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.115655
+Running on 43 processes.
+Selected topology: [ 43 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 43 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.205123
+Running on 45 processes.
+Selected topology: [ 9 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 45 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.106315
+Running on 47 processes.
+Selected topology: [ 47 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 47 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.133726
+Running on 53 processes.
+Selected topology: [ 53 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 53 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.160678
+Running on 55 processes.
+Selected topology: [ 11 , 5 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 55 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.097002
+Running on 57 processes.
+Selected topology: [ 19 , 3 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 57 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.104357
+Running on 59 processes.
+Selected topology: [ 59 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 59 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.085931
+Running on 60 processes.
+Selected topology: [ 10 , 6 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 60 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.092720
+Running on 61 processes.
+Selected topology: [ 61 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 61 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.184660
+Running on 62 processes.
+Selected topology: [ 31 , 2 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 62 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.109188
+Running on 67 processes.
+Selected topology: [ 67 , 1 ]
+Selected Parameters:
+	Input File: <data/edgenew768x768.pgm>
+	Output File: <out/no_overlap_parallel_image768x768.pgm>
+	Number of Iterations: 10000
+	DelftaFreq: 1
+	AvgFreq: 0
+Processing 768 x 768 image on 67 processes
+Reading <data/edgenew768x768.pgm>
+
+Scattering data...	Done
+Iteration 200
+Iteration 400
+Iteration 600
+Iteration 800
+Iteration 1000
+Iteration 1200
+
+Finished 1226 iterations
+Gathering data...	 Done
+Writing <out/no_overlap_parallel_image768x768.pgm>
+Writing 768 x 768 picture into file: out/no_overlap_parallel_image768x768.pgm
+Average Time for 1226 iterations = 0.192531

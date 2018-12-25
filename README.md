@@ -14,6 +14,7 @@ Two-dimensional lattice-based calculation that employs a two-dimensional domain 
 	- `pgmio.h`: Contains functions that read the data from a `.pgm` file and stores them in buffers. Also, functions that write back the data in a `.pgm` file from the buffers.
 - `scripts/correctness/`: Contains the scripts used to check the parallel code for correctness.
 - `scripts/performance/`: Contains the scripts used to measure the performance of the parallel code.
+- `test_resources/`: Contains script file were the user can specify the input arguments for each test.
 - `res/`: Raw data of the experiments performed.
 - `data/`: Images that can be used when running the program.
 - `converter/`: Contains a program that can be used by the user to generate its own edge images.
@@ -38,7 +39,7 @@ Both the serial and parallel code come with the option to specify input argument
 - `-af`: Frequency at which the average pixel value in the image is evaluated at. Default is `200`.
 
 Note that these arguments are not mandatory. No check is performed about their correctness at the moment.
-A sensible value for -mf or -af is 200.
+A sensible value for `-mf` or `-af` is 200.
 
 ## Usage
 
@@ -50,6 +51,12 @@ To compile the serial and parallel code use:
 $ make all
 ```
 
+This will result in two executables:
+- `bin/image_no_overlap`: No overlapping communications and computations are used.
+- `bin/image_overlap`: Communications and computations are overlapped.
+
+In both cases, the processing loop is timed.
+
 ### Cleaning
 To clean the project run:
 ```sh
@@ -59,16 +66,18 @@ $ make clean
 ### Running
 To execute the serial code:
 ```sh
-$ mpirun -n 1 ./bin/image -ver 0 -ef <string> -if <string> -i <int> -mf <int> -af <int>
+$ mpirun -n 1 ./bin/image_no_overlap -ver 0 -ef <string> -if <string> -i <int> -mf <int> -af <int>
 ```
 
 To execute the parallel code:
 ```sh
-$ mpirun -n <int> ./bin/image -ver 1 -ef <string> -if <string> -i <int> -mf <int> -af <int>
+$ mpirun -n <int> ./bin/image_no_overlap -ver 1 -ef <string> -if <string> -i <int> -mf <int> -af <int>
 ```
 Note that the arguments in "< >" only indicate the suported type of input. Please specify your inputs as explained above.
 
 If `-ver` is set to `0` the serial version of the code will be executed. If set to `1` the parallel version will be executed. Default option is set to be the serial.
+
+Additionally, `./bin/image_no_overlap` can be substituted with `./bin/image_overlap` if overlapping communications are desired.
 
 ### Comparing outputs
 To compare the generated outputs use:
@@ -90,7 +99,28 @@ where `NAME` is the name of the image to be converted, located in `converter/`, 
 ### Running correctness test
 To execute the correctness tests do:
 ```sh
-$ make ctest
+$ make ctest EXEC=bin/image_overlap
 ```
 
-Output results and logs can be found in `res/correctness/`. Test checks correctness for both early stopping criterion and fixed number of iterations. The data used are the default images in `data/`.
+In order to run the test, the user needs to specify which version of the code desires to test. By setting `EXEC=bin/image_overlap` the version of the parallel code with overlapping communications is tested. If one wishes to test for non-overlaping communications then set `EXEC=bin/image_no_overlap`
+
+Input arguments to the test can be specified by modifying the `test_resources/correctness_resources.sh`. Output results and logs can be found in `res/correctness/`. Test checks correctness for both early stopping criterion and fixed number of iterations. The source directory of the edge images is `data/`.
+
+### Running performance test using a single node 
+This test is about measuring the performance of the parallel code when executed on a single node i.e ignoring network communication overheads. A set of 
+
+To execute the test do:
+```sh
+$ make perf EXEC=bin/image_overlap REPS=5 ITER=20000
+```
+where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met.
+
+### Running performance test using multiple nodes
+This test is about measuring the performance of the parallel code when executed on multiple nodes i.e taking into consideration the network communication overheads. In order to obtain comparable results the same number of processes will be tested (from 6 to 36 choosing only multiple of 6).
+
+To execute the test do:
+```sh
+$ make mulnodes EXEC=bin/image_overlap REPS=5 ITER=20000
+```
+where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met. The test runs for 1,2 and 3 nodes.
+

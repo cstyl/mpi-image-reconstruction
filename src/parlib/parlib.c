@@ -108,7 +108,7 @@ void par_halo_exchange_image_update(master_str *master, MPI_Datatype hor_halo_ty
 	/* update the boundaries received*/	
 	update_image_slice_boundaries(&master->img, master->slice.actual);
 #else
-	update_image_slice(&master->img, master->slice.ustart, master->slice.uendm);
+	update_image_slice(&master->img, master->slice.ustart, master->slice.uend);
 #endif
 }
 

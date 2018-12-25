@@ -1,0 +1,75 @@
+#!/bin/bash --login
+
+cd $PBS_O_WORKDIR
+
+#load compilers
+module load mpt
+module load intel-compilers-17
+
+#parses the arguments to the script
+set -f
+EDGES=(${EDGES// / })
+IMAGES_PAR=(${IMAGES// / })
+PROC=(${PROC// / })
+EXEC=$EXEC
+
+printf "Starting $PBS_JOBNAME \n" > $LOG_FILE
+
+printf "img, proc, rep, iter, time\n" > $PERF_FILE
+for i in `seq 0 $((${#EDGES[@]}-1))`
+do
+	echo "Image ${EDGES[$i]}"
+	for j in `seq 0 $((${#PROC[@]}-1))`
+	do	
+		echo "Running on ${PROC[10#$j]} processes"
+		for k in `seq 0 ${REPS}`
+		do
+			echo "Starting repetition ${k}"
+			echo "${i}, ${PROC[10#$j]}, ${k}, ${ITERS}, " > $TEMP_RES_FILE
+			# run the code
+			MPIPROG="${EXEC} -ef ${EDGES[$i]} -if ${IMAGES[$i]}  -i ${ITERS} -mf 0 -af 0"
+			MPISIZE=${PROC[10#$j]}
+
+			# Spread the processes as evenly as possible across the nodes
+
+			CPN=36                                     # Cores Per Node (physical)
+			NNODE=$( wc -l < $PBS_NODEFILE )           # nodes reserved
+			PPN=$(( (MPISIZE + NNODE - 1) / NNODE ))   # Processes Per Node
+
+			# Ensure we place a maximum of 36 processes per node to avoid hyperthreads
+
+			if [ $PPN -gt $CPN ]
+			then
+			    NMIN=$(( (MPISIZE + CPN - 1) / CPN ))
+			    echo "Error: for $MPISIZE processes you must select at least $NMIN nodes" >> $LOG_FILE
+
+			    exit 1
+			fi
+
+			# Ensure that number of MPI processes is a multiple of number of nodes
+
+			if [ $MPISIZE -ne $(( NNODE * PPN )) ]
+			then
+
+			    echo "Error: NPROC=$NPROC must be a multiple of number of nodes=$NNODE" >> $LOG_FILE
+			    exit 1
+			fi
+
+			echo '--------------------------------------------------------------------------------'  >> $LOG_FILE
+
+			echo 'Running ${EXEC} on' $MPISIZE 'processes over' $NNODE 'node(s)'  >> $LOG_FILE
+			echo 'Issuing command: mpiexec_mpt -n' $MPISIZE '-ppn' $PPN $MPIPROG  >> $LOG_FILE
+			echo 'Started at' `date`  >> $LOG_FILE
+			echo '--------------------------------------------------------------------------------'  >> $LOG_FILE
+
+			mpiexec_mpt -n $MPISIZE -ppn $PPN $MPIPROG > $TEMP_FILE
+
+			echo '--------------------------------------------------------------------------------'  >> $LOG_FILE
+			echo 'Finished at' `date`  >> $LOG_FILE
+
+			awk '/Average Time/ {print $NF}' $TEMP_FILE >> $TEMP_RES_FILE
+			# combine 2 lines into 1, separated by commas 
+			awk 'NR%2{printf "%s ",$0;next;}1' $TEMP_RES_FILE >> $PERF_FILE
+		done	
+	done
+done
