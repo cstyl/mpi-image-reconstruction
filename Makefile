@@ -71,7 +71,7 @@ perf:
 	@chmod u+x $(PERF)/performance.sh
 	@chmod u+x $(PBS)/performance.pbs
 	@./$(PERF)/performance.sh -e $(EXEC) -r $(REPS) -i $(ITER) \
-							  -T perf -n 1 -t 00:05:00 \
+							  -T perf -n 1 -t 00:20:00 \
 							  -R $(RESERV)
 
 ## mulnodes: perform multiple nodes performance tests.

@@ -27,7 +27,7 @@ do
 			echo "Starting repetition ${k}"
 			echo "${i}, ${PROC[10#$j]}, ${k}, ${ITERS}, " > $TEMP_RES_FILE
 			# run the code
-			MPIPROG="${EXEC} -ef ${EDGES[$i]} -if ${IMAGES[$i]}  -i ${ITERS} -mf 0 -af 0"
+			MPIPROG="${EXEC} -ver 1 -ef ${EDGES[$i]} -if ${IMAGES_PAR[$i]} -i ${ITERS} -mf 0 -af 0"
 			MPISIZE=${PROC[10#$j]}
 
 			# Spread the processes as evenly as possible across the nodes
@@ -57,7 +57,7 @@ do
 
 			echo '--------------------------------------------------------------------------------'  >> $LOG_FILE
 
-			echo 'Running ${EXEC} on' $MPISIZE 'processes over' $NNODE 'node(s)'  >> $LOG_FILE
+			echo 'Running ' $EXEC ' on' $MPISIZE 'processes over' $NNODE 'node(s)'  >> $LOG_FILE
 			echo 'Issuing command: mpiexec_mpt -n' $MPISIZE '-ppn' $PPN $MPIPROG  >> $LOG_FILE
 			echo 'Started at' `date`  >> $LOG_FILE
 			echo '--------------------------------------------------------------------------------'  >> $LOG_FILE

@@ -27,7 +27,7 @@ Outputs:
 Both are located in ${RES_DIR}
 '
 
-printf "Parsing command line arguments...\t"
+printf "Parsing command line arguments...\n"
 
 POSITIONAL=()
 while [[ $# -gt 0 ]]
@@ -88,15 +88,12 @@ then
 	make bin/image_no_overlap DEFINE=-DTIME
 fi
 
-printf "Done.\nSetting up ${CASE}_${TEST}${NODES} test...\t"
+printf "Parsing Completed.\nSetting up ${CASE}_${TEST}${NODES} test...\n"
 
 # number of processes where the parallel code will be executed on
 if [ "$TEST" = "perf" ]
 then
-	PROC="1 2 4 8
-		  12 15 16 
-		  23 25 28
-		  31 32 36"
+	PROC="1 2 4 8 12 15 16 23 25 28 31 32 36"
 elif [ "$TEST" = "mulnodes" ]
 then
 	PROC="6 12 18 24 30 36"
@@ -113,11 +110,9 @@ PLACE=place=excl
 # echo $SELECT
 
 # edge images located in data/
-EDGES="edgenew192x128.pgm edgenew256x192.pgm 
-	   edgenew512x384.pgm edgenew768x768.pgm"
+EDGES="edgenew192x128.pgm edgenew256x192.pgm edgenew512x384.pgm edgenew768x768.pgm"
 # names of parallel images to be generated in out/
-IMAGES="${NAME}_parallel_image192x128.pgm ${NAME}_parallel_image256x192.pgm 
-	    ${NAME}_parallel_image512x384.pgm ${NAME}_parallel_image768x768.pgm"
+IMAGES="${NAME}_parallel_image192x128.pgm ${NAME}_parallel_image256x192.pgm ${NAME}_parallel_image512x384.pgm ${NAME}_parallel_image768x768.pgm"
 
 OUT_DIR=out
 RES_DIR=res/performance/${NAME}
@@ -127,15 +122,16 @@ mkdir -p ${RES_DIR}
 TEMP_FILE=${OUT_DIR}/${NAME}_out.txt
 TEMP_RES_FILE=${OUT_DIR}/${NAME}_temp_res.txt
 PERF_FILE=${RES_DIR}/${NAME}_perf.csv
-LOG_FILE==${RES_DIR}/${NAME}_log.txt
+LOG_FILE=${RES_DIR}/${NAME}_log.txt
 
-printf "Done.\nExecuting test on backend nodes...\n"
+printf "Setup completed.\Submitting test on backend nodes...\n"
 
 qsub $RESERVATION -v PROC="${PROC}",EDGES="${EDGES}",IMAGES="${IMAGES}",EXEC="${EXEC}",TEMP_FILE="$TEMP_FILE",TEMP_RES_FILE="$TEMP_RES_FILE",PERF_FILE="$PERF_FILE",LOG_FILE="$LOG_FILE",REPS="$REPS",ITERS="$ITERS" \
 				  -N $NAME -A $ACCOUNT \
 				  -l $SELECT,$TIME,$PLACE \
+				  -e $OUT_DIR -o $OUT_DIR\
 				  ${PBS_DIR}/performance.pbs
 
-printf "Test completed.\n"
+printf "Submission successful.\n"
 # remove intermediate files
 rm -f $TEMP_FILE $TEMP_RES_FILE
