@@ -97,7 +97,7 @@ $ make conv NAME=archer.jpg WIDTH=400 HEIGHT=266
 where `NAME` is the name of the image to be converted, located in `converter/`, `WIDTH` is the width of the image and `HEIGHT` the height of the image. The generated image is located in `data/`. Alternatively, one can follow the instructions in `converter/` under the `REAMDE.md`.
 
 ## Running various tests
-### Running correctness test
+### Correctness test
 To execute the correctness tests do:
 ```sh
 $ make ctest EXEC=bin/image_overlap
@@ -107,7 +107,7 @@ In order to run the test, the user needs to specify which version of the code de
 
 Input arguments to the test can be specified by modifying the `test_resources/correctness_resources.sh`. Output results and logs can be found in `res/correctness/`. Test checks correctness for both early stopping criterion and fixed number of iterations. The source directory of the edge images is `data/`.
 
-### Running performance test using a single node 
+### Performance test using a single node 
 This test is about measuring the performance of the parallel code when executed on a single node i.e ignoring network communication overheads. A set of number of processes from 1 to 36 are tested.
 
 To execute the test do:
@@ -116,7 +116,7 @@ $ make perf EXEC=bin/image_overlap REPS=5 ITER=20000
 ```
 where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met.
 
-### Running performance test using multiple nodes
+### Performance test using multiple nodes
 This test is about measuring the performance of the parallel code when executed on multiple nodes i.e taking into consideration the network communication overheads. In order to obtain comparable results the same number of processes will be tested (from 6 to 36 choosing only multiple of 6).
 
 To execute the test do:
