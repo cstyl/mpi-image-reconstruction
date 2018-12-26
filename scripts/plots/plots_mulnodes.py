@@ -4,7 +4,7 @@ import argparse
 
 print('Running plots_mulnodes.py')
 
-parser = argparse.ArgumentParser(description='Read number of repetitions and working directory')
+parser = argparse.ArgumentParser(description='Read version of executable')
 parser.add_argument('-v', dest='version', type=str, help='Enter the version of the executable')
 args = parser.parse_args()
 

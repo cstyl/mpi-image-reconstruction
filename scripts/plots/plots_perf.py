@@ -4,7 +4,7 @@ import argparse
 
 print('Running plots_perf.py')
 
-parser = argparse.ArgumentParser(description='Read number of repetitions and working directory')
+parser = argparse.ArgumentParser(description='Read version of executable')
 parser.add_argument('-v', dest='version', type=str, help='Enter the version of the executable')
 args = parser.parse_args()
 
@@ -29,22 +29,21 @@ for i,test in enumerate(test_nodes):
 	test_filename = version + '_' + test_name + test + '_perf.csv'
 	file = test_dir + test_filename
 	print('Reading from file: ' + file)	
-data = np.genfromtxt(file, delimiter=',', skip_header=1)
+	data = np.genfromtxt(file, delimiter=',', skip_header=1)
 
-for num, label in enumerate(img):
-	# read img type column
-	blocks = data[:,0]
-	# get data that only match the current img
-	img_data = data[blocks==num,:]
+	for num, label in enumerate(img):
+		# read img type column
+		blocks = data[:,0]
+		# get data that only match the current img
+		img_data = data[blocks==num,:]
 
-	for j,proc in enumerate(processes):
-		# get data that only match the current process
-		blocks = img_data[:,1]
-		proc_data = img_data[blocks==proc,:]
-		# take the average time for each version
-		avg_time[i,num,j] = np.mean(proc_data[:,4])
+		for j,proc in enumerate(processes):
+			# get data that only match the current process
+			blocks = img_data[:,1]
+			proc_data = img_data[blocks==proc,:]
+			# take the average time for each version
+			avg_time[i,num,j] = np.mean(proc_data[:,4])
 
-for i, test in enumerate(test_nodes):
 	print('Plots for node ' + test)
 	plt.figure()
 	plt.plot(processes, avg_time[i,0,:], '-*', label=str(img[0]))

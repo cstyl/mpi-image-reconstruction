@@ -31,6 +31,8 @@ WRAPLIB = $(SRC)/wraplib
 
 CORR = $(SCRIPTS)/correctness
 PERF = $(SCRIPTS)/performance
+OVERH = $(SCRIPTS)/overheads
+PLOTS = $(SCRIPTS)/plots
 PBS = $(SCRIPTS)/pbs
 
 VPATH = $(SRC) $(INC) $(MPLIB) $(IMGLIB) $(UTIL) $(SER) $(MPI2D) $(WRAPLIB)
@@ -74,11 +76,6 @@ perf:
 							  -T perf -n 1 -t 00:20:00 \
 							  -R $(RESERV)
 
-##plotperf: plot
-.PHONY: plot
-plot:
-	@python scripts/plots/plots_$(TEST).py -v $(VER)
-
 ## mulnodes: perform multiple nodes performance tests.
 .PHONY: mulnodes
 mulnodes:
@@ -93,6 +90,24 @@ mulnodes:
 	@./$(PERF)/performance.sh -e $(EXEC) -r $(REPS) -i $(ITER) \
 							  -T mulnodes -n 3 \
 							  -t 00:20:00 -R $(RESERV)
+
+## plotperf: plot performance results
+.PHONY: plotperf
+plotperf:
+	@python $(PLOTS)/plots_$(TEST).py -v $(VER)
+
+## overheads: perform basic overhead test over a number of processes.
+.PHONY: overheads
+overheads:
+	@chmod u+x $(OVERH)/overheads.sh
+	@chmod u+x $(PBS)/overheads.pbs
+	@./$(OVERH)/overheads.sh -e $(EXEC) -r $(REPS) -i $(ITER) \
+							  -T $(TEST) -t 00:20:00 -R $(RESERV)
+
+## plotoverh: plot performance results
+.PHONY: plotoverh
+plotoverh:
+	@python $(PLOTS)/plots_overheads.py -v $(VER)
 
 ## conv: runs the converter to generate the desired edge image
 .PHONY: conv
