@@ -116,6 +116,8 @@ $ make perf EXEC=bin/image_overlap REPS=5 ITER=20000
 ```
 where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met.
 
+Once the instruction is executed, each test is submitted to the CIRRUS back-end for execution. Results are stored in `res/performance/`.
+
 ### Performance test using multiple nodes
 This test is about measuring the performance of the parallel code when executed on multiple nodes i.e taking into consideration the network communication overheads. In order to obtain comparable results the same number of processes will be tested (from 6 to 36 choosing only multiple of 6).
 
@@ -125,3 +127,19 @@ $ make mulnodes EXEC=bin/image_overlap REPS=5 ITER=20000
 ```
 where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met. The test runs for 1,2 and 3 nodes.
 
+Once the instruction is executed, each test is submitted to the CIRRUS back-end for execution. Results are stored in `res/performance/`.
+
+### Plotting the results from the tests
+Once the back-end jobs are finished, the results can be plotted by running:
+```sh
+$ make plot TEST=perf VER=no_overlap
+```
+where `TEST` is the name of the performed test and `VER` the version of the executable tested. Valid options for each variable are:
+- `TEST=`:
+	- `perf`
+	- `mulnodes`
+- `VER=`:
+	- `overlap`
+	- `no_overlap`
+
+For `TEST=perf` results are stored in `res/performance/plots_perf/` and for `TEST=mulnodes` results are stored in `res/performance/plots_mulnodes/`.

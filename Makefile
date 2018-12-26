@@ -65,7 +65,7 @@ ctest:
 
 	@./$(CORR)/correctness_test.sh -e $(EXEC)
 
-## singleperf: perform basic performance test over a number of processes.
+## perf: perform basic performance test over a number of processes.
 .PHONY: perf
 perf:
 	@chmod u+x $(PERF)/performance.sh
@@ -73,6 +73,11 @@ perf:
 	@./$(PERF)/performance.sh -e $(EXEC) -r $(REPS) -i $(ITER) \
 							  -T perf -n 1 -t 00:20:00 \
 							  -R $(RESERV)
+
+##plotperf: plot
+.PHONY: plot
+plot:
+	@python scripts/plots/plots_$(TEST).py -v $(VER)
 
 ## mulnodes: perform multiple nodes performance tests.
 .PHONY: mulnodes

@@ -1,0 +1,1009 @@
+Starting overlap_mulnodes2 
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:15 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:15 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:15 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:16 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:16 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:17 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:17 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:18 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:18 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:18 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:18 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:19 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:19 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:20 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:20 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:20 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:20 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:21 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:21 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:21 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:21 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:22 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:22 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:23 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:23 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:23 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:23 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:24 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:24 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:25 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:25 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:25 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:25 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:26 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:26 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:27 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:27 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:28 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:28 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:28 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:28 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:29 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:29 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:30 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:30 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:31 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:31 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:31 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:31 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:32 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:32 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:33 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:33 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:34 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:34 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:35 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:35 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:36 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:36 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:37 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:37 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:38 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:38 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:39 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:39 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:40 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:40 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:41 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:41 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:42 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew192x128.pgm -if overlap_mulnodes2_parallel_image192x128.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:42 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:43 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:43 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:44 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:44 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:45 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:45 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:46 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:46 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:47 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:47 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:48 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:48 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:48 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:48 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:49 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:49 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:50 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:50 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:51 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:51 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:51 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:51 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:52 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:52 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:53 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:53 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:54 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:54 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:54 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:54 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:55 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:55 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:56 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:56 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:56 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:57 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:57 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:57 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:58 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:58 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:14:59 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:14:59 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:00 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:00 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:01 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:01 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:01 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:01 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:02 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:02 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:03 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:03 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:04 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:04 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:05 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:05 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:06 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:06 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:07 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:07 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:08 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:08 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:09 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:09 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:10 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:10 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:11 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:11 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:12 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:12 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:13 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew256x192.pgm -if overlap_mulnodes2_parallel_image256x192.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:13 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:14 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:14 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:16 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:16 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:18 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:18 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:20 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:20 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:21 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:21 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:23 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:23 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:25 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:25 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:26 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:26 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:27 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:27 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:28 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:28 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:30 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:30 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:31 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:31 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:32 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:32 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:33 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:33 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:34 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:34 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:35 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:35 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:37 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:37 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:38 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:38 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:39 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:39 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:40 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:40 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:41 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:41 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:42 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:42 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:43 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:43 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:44 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:44 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:46 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:46 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:47 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:47 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:48 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:48 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:49 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:49 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:50 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:50 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:51 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:51 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:53 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:53 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:54 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:54 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:55 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:55 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:57 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:57 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:58 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:58 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:15:59 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew512x384.pgm -if overlap_mulnodes2_parallel_image512x384.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:15:59 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:00 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:00 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:04 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:04 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:08 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:08 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:12 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:12 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:16 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:16 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:19 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 6 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 6 -ppn 3 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:19 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:23 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:23 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:25 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:25 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:28 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:28 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:30 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:30 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:32 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:32 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:34 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 12 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 12 -ppn 6 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:34 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:37 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:37 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:38 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:38 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:40 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:40 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:42 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:42 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:44 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:44 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:46 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 18 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 18 -ppn 9 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:46 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:47 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:47 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:49 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:49 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:51 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:51 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:53 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:53 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:54 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:54 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:56 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 24 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 24 -ppn 12 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:56 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:58 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:58 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:16:59 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:16:59 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:01 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:01 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:03 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:03 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:05 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:05 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:06 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 30 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 30 -ppn 15 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:06 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:08 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:08 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:10 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:10 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:12 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:12 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:14 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:14 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:15 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:15 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:17 GMT 2018
+--------------------------------------------------------------------------------
+Running  bin/image_overlap  on 36 processes over 2 node(s)
+Issuing command: mpiexec_mpt -n 36 -ppn 18 bin/image_overlap -ver 1 -ef edgenew768x768.pgm -if overlap_mulnodes2_parallel_image768x768.pgm -i 20000 -mf 0 -af 0
+Started at Wed Dec 26 05:17:17 GMT 2018
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Finished at Wed Dec 26 05:17:19 GMT 2018
