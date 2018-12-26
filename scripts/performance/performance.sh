@@ -124,7 +124,7 @@ TEMP_RES_FILE=${OUT_DIR}/${NAME}_temp_res.txt
 PERF_FILE=${RES_DIR}/${NAME}_perf.csv
 LOG_FILE=${RES_DIR}/${NAME}_log.txt
 
-printf "Setup completed.\Submitting test on backend nodes...\n"
+printf "Setup completed.\nSubmitting test on backend nodes...\n"
 
 qsub $RESERVATION -v PROC="${PROC}",EDGES="${EDGES}",IMAGES="${IMAGES}",EXEC="${EXEC}",TEMP_FILE="$TEMP_FILE",TEMP_RES_FILE="$TEMP_RES_FILE",PERF_FILE="$PERF_FILE",LOG_FILE="$LOG_FILE",REPS="$REPS",ITERS="$ITERS" \
 				  -N $NAME -A $ACCOUNT \
@@ -133,5 +133,3 @@ qsub $RESERVATION -v PROC="${PROC}",EDGES="${EDGES}",IMAGES="${IMAGES}",EXEC="${
 				  ${PBS_DIR}/performance.pbs
 
 printf "Submission successful.\n"
-# remove intermediate files
-rm -f $TEMP_FILE $TEMP_RES_FILE

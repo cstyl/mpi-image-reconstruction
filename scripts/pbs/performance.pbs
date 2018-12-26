@@ -73,3 +73,6 @@ do
 		done	
 	done
 done
+
+# clean up: remove intermediate files
+rm -f $TEMP_FILE $TEMP_RES_FILE
