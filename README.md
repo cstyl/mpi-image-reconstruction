@@ -177,4 +177,47 @@ $ make plotperf_all
 ```
 
 ### Overheads investigation test
-This test is about evaluating how much overheads are introduced by evaluating at each iteration of the main loop the *average_pixel* value and the *maximum_change*, $\Delta$, in the pixels in order to determine the early stop criterion. The test is performed for the first 800 iterations for each image.
+This tests are about evaluating how much overheads are introduced by evaluating at each iteration of the main loop:
+1. The *average_pixel* value.
+2. The *maximum_change* in the pixels in order to determine the early stop criterion. 
+
+The tests are performed for the first 800 iterations for each image. Each test can be performed using *overlap* or *no_overlap* communications.
+
+To perform a test, execute:
+```sh
+$ make overheads EXEC=$(EXEC) REPS=$(REPS) TEST=$(TEST) RESERV=$(RESERV)
+```
+where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number, `TEST` is the name of the test to perform and `RESERV` is the name of the back-end reservation.
+
+Valid `TEST` options are:
+- `delta`: Performs the investigation for the overheads incurred by determining the  *maximum_change* in pixels.
+- `avg`: Performs the investigation for the overheads incurred by determining the *average_pixel* value.
+
+**Example:**
+```sh
+$ make overheads EXEC=bin/image_no_overlap REPS=5 ITER=800 TEST=delta
+```
+
+Once the instruction is executed, each test is submitted to the CIRRUS back-end for execution. Results are stored in `res/overheads/`.
+
+#### Plotting the results from the overhead tests
+Once the back-end jobs are finished, the results can be plotted by running:
+```sh
+$ make plotoverh VER=$(VER)
+```
+where `VER` the version of the executable tested. Valid options for each variable are:
+- `VER=`:
+	- `overlap`
+	- `no_overlap`
+
+**Example:**
+```sh
+$ make plotoverh VER=no_overlap
+```
+
+Results are stored in `res/overheads/plots_overheads/`.
+
+Alternatively one can plot all overhead test results by executing:
+```sh
+$ make plotoverh_all
+```

@@ -109,7 +109,7 @@ plotperf_all:
 overheads:
 	@chmod u+x $(OVERH)/overheads.sh
 	@chmod u+x $(PBS)/overheads.pbs
-	@./$(OVERH)/overheads.sh -e $(EXEC) -r $(REPS) -i $(ITER) \
+	@./$(OVERH)/overheads.sh -e $(EXEC) -r $(REPS) -i 800 \
 							  -T $(TEST) -t 00:20:00 -R $(RESERV)
 
 ## plotoverh: plot individual overhead results
