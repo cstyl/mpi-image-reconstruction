@@ -144,6 +144,7 @@ $ make mulnodes EXEC=$(EXEC) REPS=$(REPS) ITER=$(ITER) RESERV=$(RESERV)
 ```
 where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number, `ITER` is the maximum allowed iterations if early stopping criterion is not met and `RESERV` is the name of the back-end reservation. The test runs for 1,2 and 3 nodes.
 
+**Example:**
 ```sh
 $ make mulnodes EXEC=bin/image_overlap REPS=5 ITER=20000
 ```
@@ -174,3 +175,6 @@ Alternatively one can plot all performance test results by executing:
 ```sh
 $ make plotperf_all
 ```
+
+### Overheads investigation test
+This test is about evaluating how much overheads are introduced by evaluating at each iteration of the main loop the *average_pixel* value and the *maximum_change*, $\Delta$, in the pixels in order to determine the early stop criterion. The test is performed for the first 800 iterations for each image.
