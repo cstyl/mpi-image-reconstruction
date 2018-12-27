@@ -14,10 +14,11 @@ Two-dimensional lattice-based calculation that employs a two-dimensional domain 
 	- `pgmio.h`: Contains functions that read the data from a `.pgm` file and stores them in buffers. Also, functions that write back the data in a `.pgm` file from the buffers.
 - `scripts/correctness/`: Contains the scripts used to check the parallel code for correctness.
 - `scripts/performance/`: Contains the scripts used to measure the performance of the parallel code.
+- `scripts/overheads/`: Contains the scripts used to investigate the overheads of the parallel code.
 - `scripts/pbs/`: Contains the scripts to sumbit jobs at the back-end of CIRRUS.
 - `scripts/plots/`: Contains the scripts to plot the results of the performance tests.
 - `test_resources/`: Contains script file were the user can specify the input arguments for each test.
-- `res/`: Raw data of the experiments performed.
+- `res/`: Raw data and plots of the experiments performed.
 - `data/`: Images that can be used when running the program.
 - `converter/`: Contains a program that can be used by the user to generate its own edge images.
 
