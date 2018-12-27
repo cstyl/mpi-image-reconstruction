@@ -91,10 +91,18 @@ mulnodes:
 							  -T mulnodes -n 3 \
 							  -t 00:20:00 -R $(RESERV)
 
-## plotperf: plot performance results
+## plotperf: plot individual performance results
 .PHONY: plotperf
 plotperf:
 	@python $(PLOTS)/plots_$(TEST).py -v $(VER)
+
+## plotperf_all: plot all performance results
+.PHONY: plotperf_all
+plotperf_all:
+	@make plotperf TEST=perf VER=overlap
+	@make plotperf TEST=perf VER=no_overlap
+	@make plotperf TEST=mulnodes VER=overlap
+	@make plotperf TEST=mulnodes VER=no_overlap
 
 ## overheads: perform basic overhead test over a number of processes.
 .PHONY: overheads
@@ -104,16 +112,22 @@ overheads:
 	@./$(OVERH)/overheads.sh -e $(EXEC) -r $(REPS) -i $(ITER) \
 							  -T $(TEST) -t 00:20:00 -R $(RESERV)
 
-## plotoverh: plot performance results
+## plotoverh: plot individual overhead results
 .PHONY: plotoverh
 plotoverh:
 	@python $(PLOTS)/plots_overheads.py -v $(VER)
+
+## plotoverh_all: plot all overhead results
+.PHONY: plotoverh_all
+plotoverh_all:
+	@make plotoverh VER=overlap
+	@make plotoverh VER=no_overlap
 
 ## conv: runs the converter to generate the desired edge image
 .PHONY: conv
 conv:
 	@chmod u+x converter/converter.sh
-	./converter/converter.sh -n $(NAME) -w $(WIDTH) -h $(HEIGHT)
+	@./converter/converter.sh -n $(NAME) -w $(WIDTH) -h $(HEIGHT)
 
 # compile all c files and create the output files
 $(OBJ)/%.o: %.c

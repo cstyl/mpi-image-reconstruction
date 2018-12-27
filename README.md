@@ -93,19 +93,29 @@ where `a` is the file of the serial image and `b` the file of the parallel image
 To generate your own edge images, use:
 
 ```sh
-$ make conv NAME=archer.jpg WIDTH=400 HEIGHT=266
+$ make conv NAME=$(NAME) WIDTH=$(WIDTH) HEIGHT=$(HEIGHT)
 ```
 
 where `NAME` is the name of the image to be converted, located in `converter/`, `WIDTH` is the width of the image and `HEIGHT` the height of the image. The generated image is located in `data/`. Alternatively, one can follow the instructions in `converter/` under the `REAMDE.md`.
+
+**Example:**
+```sh
+$ make conv NAME=archer.jpg WIDTH=400 HEIGHT=266
+```
 
 ## Running various tests
 ### Correctness test
 To execute the correctness tests do:
 ```sh
-$ make ctest EXEC=bin/image_overlap
+$ make ctest EXEC=$(EXEC)
 ```
 
 In order to run the test, the user needs to specify which version of the code desires to test. By setting `EXEC=bin/image_overlap` the version of the parallel code with overlapping communications is tested. If one wishes to test for non-overlaping communications then set `EXEC=bin/image_no_overlap`
+
+**Example:**
+```sh
+$ make ctest EXEC=bin/image_overlap
+```
 
 Input arguments to the test can be specified by modifying the `test_resources/correctness_resources.sh`. Output results and logs can be found in `res/correctness/`. Test checks correctness for both early stopping criterion and fixed number of iterations. The source directory of the edge images is `data/`.
 
@@ -114,9 +124,14 @@ This test is about measuring the performance of the parallel code when executed 
 
 To execute the test do:
 ```sh
+$ make perf EXEC=$(EXEC) REPS=$(REPS) ITER=$(ITER) RESERV=$(RESERV)
+```
+where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number, `ITER` is the maximum allowed iterations if early stopping criterion is not met and `RESERV` is the name of the back-end reservation.
+
+**Example:**
+```sh
 $ make perf EXEC=bin/image_overlap REPS=5 ITER=20000
 ```
-where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met.
 
 Once the instruction is executed, each test is submitted to the CIRRUS back-end for execution. Results are stored in `res/performance/`.
 
@@ -125,16 +140,20 @@ This test is about measuring the performance of the parallel code when executed 
 
 To execute the test do:
 ```sh
+$ make mulnodes EXEC=$(EXEC) REPS=$(REPS) ITER=$(ITER) RESERV=$(RESERV)
+```
+where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number, `ITER` is the maximum allowed iterations if early stopping criterion is not met and `RESERV` is the name of the back-end reservation. The test runs for 1,2 and 3 nodes.
+
+```sh
 $ make mulnodes EXEC=bin/image_overlap REPS=5 ITER=20000
 ```
-where `EXEC` is the name of the executable, `REPS` is the number of times the executable is executed for each process number and `ITER` is the maximum allowed iterations if early stopping criterion is not met. The test runs for 1,2 and 3 nodes.
 
 Once the instruction is executed, each test is submitted to the CIRRUS back-end for execution. Results are stored in `res/performance/`.
 
-### Plotting the results from the tests
+#### Plotting the results from the performance tests
 Once the back-end jobs are finished, the results can be plotted by running:
 ```sh
-$ make plot TEST=perf VER=no_overlap
+$ make plotperf TEST=$(TEST) VER=$(VER)
 ```
 where `TEST` is the name of the performed test and `VER` the version of the executable tested. Valid options for each variable are:
 - `TEST=`:
@@ -144,4 +163,14 @@ where `TEST` is the name of the performed test and `VER` the version of the exec
 	- `overlap`
 	- `no_overlap`
 
+**Example:**
+```sh
+$ make plotperf TEST=perf VER=no_overlap
+```
+
 For `TEST=perf` results are stored in `res/performance/plots_perf/` and for `TEST=mulnodes` results are stored in `res/performance/plots_mulnodes/`.
+
+Alternatively one can plot all performance test results by executing:
+```sh
+$ make plotperf_all
+```
